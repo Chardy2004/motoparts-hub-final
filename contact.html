@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><head><title>Contact | MotoParts Hub</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:ital,wght@1,800&display=swap"><link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css"><script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script></head><body>
+<header><a href="index.html"><img src="assets/logo.png" alt="MotoParts Hub"></a><nav><a href="home.html" >Home</a><a href="products.html" >Products</a><a href="services.html" >Services</a><a href="contact.html" class=on>Contact</a></nav></header>
+<main><h1>Contact and feedback</h1>
+<div class="shop"><section>
+<form id="feedback" class="card">
+<label for="name">Name</label><input id="name" required>
+<label for="interest">How likely are you to buy from MotoParts Hub?</label>
+<select id="interest"><option>Very likely</option><option>Likely</option><option>Not sure</option><option>Unlikely</option></select>
+<label for="wish">Which products should we offer?</label><select id="wish"><option>Brake parts</option><option>Tires and tubes</option><option>Lubricants and oil</option><option>Electrical parts</option><option>Accessories</option></select>
+<label for="message">Message</label><textarea id="message" rows="4" maxlength="200" required></textarea>
+<small id="counter" class="mute">200 characters left</small><br><br>
+<button type="submit">Send feedback</button><p id="form-msg" class="msg" role="status"></p></form></section>
+<aside class="cartbox"><h2>Recent feedback</h2><div id="list"><p class="mute">No feedback yet.</p></div><button id="clear-fb" style="width:100%;margin-top:.8rem;background:#333">Clear feedback</button></aside></div>
+</main><footer>MotoParts Hub: Quality Parts, Better Rides. Cebu Eastern College, Business Analytics / Event-Driven Programming project.</footer>
+<script type="py" src="contact.py"></script></body></html>
