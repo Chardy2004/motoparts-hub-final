@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><head><title>Products | MotoParts Hub</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Barlow+Condensed:ital,wght@1,800&display=swap"><link rel="stylesheet" href="https://pyscript.net/releases/2024.11.1/core.css"><script type="module" src="https://pyscript.net/releases/2024.11.1/core.js"></script></head><body>
+<header><a href="index.html"><img src="assets/logo.png" alt="MotoParts Hub"></a><nav><a href="home.html" >Home</a><a href="products.html" class=on>Products</a><a href="services.html" >Services</a><a href="contact.html" >Contact</a></nav></header>
+<main><h1>Products</h1>
+<div class="shop"><section>
+<div class="filters"><div><label for="search">Search parts</label><input id="search" placeholder="e.g. brake, oil, helmet"></div>
+<div><label for="category">Category</label><select id="category"></select></div></div>
+<p id="count" class="mute"></p><div id="grid" class="grid"></div></section>
+<aside class="cartbox"><h2>Your cart</h2><div id="cart"></div>
+<div class="total"><span>Total</span><span id="total">₱0.00</span></div>
+<button id="checkout" style="width:100%">Place order</button><button id="clear" style="width:100%;margin-top:.5rem;background:#333">Clear cart</button><p id="order-msg" class="msg" role="status"></p></aside></div>
+</main><footer>MotoParts Hub: Quality Parts, Better Rides. Cebu Eastern College, Business Analytics / Event-Driven Programming project.</footer>
+<script type="py" src="products.py"></script></body></html>
